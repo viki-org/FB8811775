@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5860C4BE253D68D500B53735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5860C4BD253D68D500B53735 /* AppDelegate.swift */; };
+		5860C4C0253D68D500B53735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5860C4BF253D68D500B53735 /* ViewController.swift */; };
+		5860C4C3253D68D500B53735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5860C4C1253D68D500B53735 /* Main.storyboard */; };
+		5860C4C5253D68D700B53735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5860C4C4253D68D700B53735 /* Assets.xcassets */; };
+		5860C4C8253D68D700B53735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5860C4C6253D68D700B53735 /* LaunchScreen.storyboard */; };
+		5860C4D3253D68D700B53735 /* tv_apple_sign_inTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5860C4D2253D68D700B53735 /* tv_apple_sign_inTests.swift */; };
+		5860C4DE253D68D700B53735 /* tv_apple_sign_inUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5860C4DD253D68D700B53735 /* tv_apple_sign_inUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5860C4CF253D68D700B53735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5860C4B2253D68D500B53735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5860C4B9253D68D500B53735;
+			remoteInfo = "tv-apple-sign-in";
+		};
+		5860C4DA253D68D700B53735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5860C4B2253D68D500B53735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5860C4B9253D68D500B53735;
+			remoteInfo = "tv-apple-sign-in";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5860C4BA253D68D500B53735 /* tv-apple-sign-in.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tv-apple-sign-in.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5860C4BD253D68D500B53735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5860C4BF253D68D500B53735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5860C4C2253D68D500B53735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5860C4C4253D68D700B53735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5860C4C7253D68D700B53735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5860C4C9253D68D700B53735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5860C4CE253D68D700B53735 /* tv-apple-sign-inTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tv-apple-sign-inTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5860C4D2253D68D700B53735 /* tv_apple_sign_inTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tv_apple_sign_inTests.swift; sourceTree = "<group>"; };
+		5860C4D4253D68D700B53735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5860C4D9253D68D700B53735 /* tv-apple-sign-inUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tv-apple-sign-inUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5860C4DD253D68D700B53735 /* tv_apple_sign_inUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tv_apple_sign_inUITests.swift; sourceTree = "<group>"; };
+		5860C4DF253D68D700B53735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5860C4B7253D68D500B53735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5860C4CB253D68D700B53735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5860C4D6253D68D700B53735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5860C4B1253D68D500B53735 = {
+			isa = PBXGroup;
+			children = (
+				5860C4BC253D68D500B53735 /* tv-apple-sign-in */,
+				5860C4D1253D68D700B53735 /* tv-apple-sign-inTests */,
+				5860C4DC253D68D700B53735 /* tv-apple-sign-inUITests */,
+				5860C4BB253D68D500B53735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5860C4BB253D68D500B53735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5860C4BA253D68D500B53735 /* tv-apple-sign-in.app */,
+				5860C4CE253D68D700B53735 /* tv-apple-sign-inTests.xctest */,
+				5860C4D9253D68D700B53735 /* tv-apple-sign-inUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5860C4BC253D68D500B53735 /* tv-apple-sign-in */ = {
+			isa = PBXGroup;
+			children = (
+				5860C4BD253D68D500B53735 /* AppDelegate.swift */,
+				5860C4BF253D68D500B53735 /* ViewController.swift */,
+				5860C4C1253D68D500B53735 /* Main.storyboard */,
+				5860C4C4253D68D700B53735 /* Assets.xcassets */,
+				5860C4C6253D68D700B53735 /* LaunchScreen.storyboard */,
+				5860C4C9253D68D700B53735 /* Info.plist */,
+			);
+			path = "tv-apple-sign-in";
+			sourceTree = "<group>";
+		};
+		5860C4D1253D68D700B53735 /* tv-apple-sign-inTests */ = {
+			isa = PBXGroup;
+			children = (
+				5860C4D2253D68D700B53735 /* tv_apple_sign_inTests.swift */,
+				5860C4D4253D68D700B53735 /* Info.plist */,
+			);
+			path = "tv-apple-sign-inTests";
+			sourceTree = "<group>";
+		};
+		5860C4DC253D68D700B53735 /* tv-apple-sign-inUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5860C4DD253D68D700B53735 /* tv_apple_sign_inUITests.swift */,
+				5860C4DF253D68D700B53735 /* Info.plist */,
+			);
+			path = "tv-apple-sign-inUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5860C4B9253D68D500B53735 /* tv-apple-sign-in */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5860C4E2253D68D700B53735 /* Build configuration list for PBXNativeTarget "tv-apple-sign-in" */;
+			buildPhases = (
+				5860C4B6253D68D500B53735 /* Sources */,
+				5860C4B7253D68D500B53735 /* Frameworks */,
+				5860C4B8253D68D500B53735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tv-apple-sign-in";
+			productName = "tv-apple-sign-in";
+			productReference = 5860C4BA253D68D500B53735 /* tv-apple-sign-in.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5860C4CD253D68D700B53735 /* tv-apple-sign-inTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5860C4E5253D68D700B53735 /* Build configuration list for PBXNativeTarget "tv-apple-sign-inTests" */;
+			buildPhases = (
+				5860C4CA253D68D700B53735 /* Sources */,
+				5860C4CB253D68D700B53735 /* Frameworks */,
+				5860C4CC253D68D700B53735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5860C4D0253D68D700B53735 /* PBXTargetDependency */,
+			);
+			name = "tv-apple-sign-inTests";
+			productName = "tv-apple-sign-inTests";
+			productReference = 5860C4CE253D68D700B53735 /* tv-apple-sign-inTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5860C4D8253D68D700B53735 /* tv-apple-sign-inUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5860C4E8253D68D700B53735 /* Build configuration list for PBXNativeTarget "tv-apple-sign-inUITests" */;
+			buildPhases = (
+				5860C4D5253D68D700B53735 /* Sources */,
+				5860C4D6253D68D700B53735 /* Frameworks */,
+				5860C4D7253D68D700B53735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5860C4DB253D68D700B53735 /* PBXTargetDependency */,
+			);
+			name = "tv-apple-sign-inUITests";
+			productName = "tv-apple-sign-inUITests";
+			productReference = 5860C4D9253D68D700B53735 /* tv-apple-sign-inUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5860C4B2253D68D500B53735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5860C4B9253D68D500B53735 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5860C4CD253D68D700B53735 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5860C4B9253D68D500B53735;
+					};
+					5860C4D8253D68D700B53735 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5860C4B9253D68D500B53735;
+					};
+				};
+			};
+			buildConfigurationList = 5860C4B5253D68D500B53735 /* Build configuration list for PBXProject "tv-apple-sign-in" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5860C4B1253D68D500B53735;
+			productRefGroup = 5860C4BB253D68D500B53735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5860C4B9253D68D500B53735 /* tv-apple-sign-in */,
+				5860C4CD253D68D700B53735 /* tv-apple-sign-inTests */,
+				5860C4D8253D68D700B53735 /* tv-apple-sign-inUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5860C4B8253D68D500B53735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5860C4C8253D68D700B53735 /* LaunchScreen.storyboard in Resources */,
+				5860C4C5253D68D700B53735 /* Assets.xcassets in Resources */,
+				5860C4C3253D68D500B53735 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5860C4CC253D68D700B53735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5860C4D7253D68D700B53735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5860C4B6253D68D500B53735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5860C4C0253D68D500B53735 /* ViewController.swift in Sources */,
+				5860C4BE253D68D500B53735 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5860C4CA253D68D700B53735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5860C4D3253D68D700B53735 /* tv_apple_sign_inTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5860C4D5253D68D700B53735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5860C4DE253D68D700B53735 /* tv_apple_sign_inUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5860C4D0253D68D700B53735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5860C4B9253D68D500B53735 /* tv-apple-sign-in */;
+			targetProxy = 5860C4CF253D68D700B53735 /* PBXContainerItemProxy */;
+		};
+		5860C4DB253D68D700B53735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5860C4B9253D68D500B53735 /* tv-apple-sign-in */;
+			targetProxy = 5860C4DA253D68D700B53735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5860C4C1253D68D500B53735 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5860C4C2253D68D500B53735 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5860C4C6253D68D700B53735 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5860C4C7253D68D700B53735 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5860C4E0253D68D700B53735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		5860C4E1253D68D700B53735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5860C4E3253D68D700B53735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNU9N24VYW;
+				INFOPLIST_FILE = "tv-apple-sign-in/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viki.tv-apple-sign-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		5860C4E4253D68D700B53735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNU9N24VYW;
+				INFOPLIST_FILE = "tv-apple-sign-in/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viki.tv-apple-sign-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		5860C4E6253D68D700B53735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNU9N24VYW;
+				INFOPLIST_FILE = "tv-apple-sign-inTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viki.tv-apple-sign-inTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tv-apple-sign-in.app/tv-apple-sign-in";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		5860C4E7253D68D700B53735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNU9N24VYW;
+				INFOPLIST_FILE = "tv-apple-sign-inTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viki.tv-apple-sign-inTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tv-apple-sign-in.app/tv-apple-sign-in";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Release;
+		};
+		5860C4E9253D68D700B53735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNU9N24VYW;
+				INFOPLIST_FILE = "tv-apple-sign-inUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viki.tv-apple-sign-inUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "tv-apple-sign-in";
+			};
+			name = Debug;
+		};
+		5860C4EA253D68D700B53735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNU9N24VYW;
+				INFOPLIST_FILE = "tv-apple-sign-inUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viki.tv-apple-sign-inUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "tv-apple-sign-in";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5860C4B5253D68D500B53735 /* Build configuration list for PBXProject "tv-apple-sign-in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5860C4E0253D68D700B53735 /* Debug */,
+				5860C4E1253D68D700B53735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5860C4E2253D68D700B53735 /* Build configuration list for PBXNativeTarget "tv-apple-sign-in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5860C4E3253D68D700B53735 /* Debug */,
+				5860C4E4253D68D700B53735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5860C4E5253D68D700B53735 /* Build configuration list for PBXNativeTarget "tv-apple-sign-inTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5860C4E6253D68D700B53735 /* Debug */,
+				5860C4E7253D68D700B53735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5860C4E8253D68D700B53735 /* Build configuration list for PBXNativeTarget "tv-apple-sign-inUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5860C4E9253D68D700B53735 /* Debug */,
+				5860C4EA253D68D700B53735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5860C4B2253D68D500B53735 /* Project object */;
+}
